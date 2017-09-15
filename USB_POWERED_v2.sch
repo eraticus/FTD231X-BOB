@@ -2323,6 +2323,33 @@ Source: www.kingbright.com</description>
 PDV-P7002
 Digikey part PDV-P7002-ND</description>
 <packages>
+<package name="RESISTOR_ARRAY_CTS_742_4">
+<description>CTS Resistor Array 0603 4 resistors
+http://www.ctscorp.com/components/Datasheets/008-0335-0.pdf
+paste is 80% pad size. This seems to work well.</description>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="21"/>
+<smd name="P$1" x="-1.2" y="-0.85" dx="0.45" dy="0.9" layer="1" cream="no"/>
+<smd name="P$2" x="-1.2" y="0.85" dx="0.45" dy="0.9" layer="1" cream="no"/>
+<smd name="P$3" x="-0.4" y="-0.85" dx="0.45" dy="0.9" layer="1" cream="no"/>
+<smd name="P$4" x="-0.4" y="0.85" dx="0.45" dy="0.9" layer="1" cream="no"/>
+<smd name="P$5" x="0.4" y="-0.85" dx="0.45" dy="0.9" layer="1" cream="no"/>
+<smd name="P$6" x="0.4" y="0.85" dx="0.45" dy="0.9" layer="1" cream="no"/>
+<smd name="P$7" x="1.2" y="-0.85" dx="0.45" dy="0.9" layer="1" cream="no"/>
+<smd name="P$8" x="1.2" y="0.85" dx="0.45" dy="0.9" layer="1" cream="no"/>
+<text x="0" y="1.905" size="0.8128" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-1.905" size="0.8128" layer="27" font="vector" align="center">&gt;VALUE</text>
+<rectangle x1="-0.58" y1="0.4" x2="-0.22" y2="1.3" layer="31"/>
+<rectangle x1="-1.38" y1="0.4" x2="-1.02" y2="1.3" layer="31"/>
+<rectangle x1="0.22" y1="0.4" x2="0.58" y2="1.3" layer="31"/>
+<rectangle x1="1.02" y1="0.4" x2="1.38" y2="1.3" layer="31"/>
+<rectangle x1="1.02" y1="-1.3" x2="1.38" y2="-0.4" layer="31"/>
+<rectangle x1="0.22" y1="-1.3" x2="0.58" y2="-0.4" layer="31"/>
+<rectangle x1="-0.58" y1="-1.3" x2="-0.22" y2="-0.4" layer="31"/>
+<rectangle x1="-1.38" y1="-1.3" x2="-1.02" y2="-0.4" layer="31"/>
+</package>
 <package name="RESISTOR_ARRAY_CTS_742C043">
 <description>CTS Resistor Array 0603 2 resistors&lt;br&gt;75% cream coverage&lt;br&gt;
 http://www.ctscorp.com/components/Datasheets/008-0335-0.pdf</description>
@@ -2340,6 +2367,79 @@ http://www.ctscorp.com/components/Datasheets/008-0335-0.pdf</description>
 <rectangle x1="0.175" y1="0.7" x2="0.625" y2="1.3" layer="31"/>
 <rectangle x1="-0.625" y1="-1.3" x2="-0.175" y2="-0.7" layer="31"/>
 <rectangle x1="0.175" y1="-1.3" x2="0.625" y2="-0.7" layer="31"/>
+</package>
+<package name="RESISTOR_ARRAY_BOURNES_CAT16-J4">
+<wire x1="-1.6" y1="0.8" x2="-1.6" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="0.5" x2="-1.6" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-0.5" x2="-1.6" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="1.6" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="1.6" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-0.5" x2="1.6" y2="0.5" width="0.127" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="0.5" width="0.127" layer="51"/>
+<wire x1="1.6" y1="0.5" x2="-1.6" y2="0.5" width="0.127" layer="51"/>
+<smd name="P$1" x="-1.2" y="-0.8" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$2" x="-1.2" y="0.8" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$3" x="-0.4" y="-0.8" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$4" x="-0.4" y="0.8" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$5" x="0.4" y="-0.8" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$6" x="0.4" y="0.8" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$7" x="1.2" y="-0.8" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$8" x="1.2" y="0.8" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<wire x1="1.6" y1="0.8" x2="-1.6" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-0.5" x2="1.6" y2="-0.5" width="0.127" layer="51"/>
+</package>
+<package name="RESISTOR_ARRAY_CTS_744">
+<wire x1="-2.54" y1="1.6" x2="2.54" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.6" x2="2.54" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.6" x2="-2.54" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.6" x2="-2.54" y2="1.6" width="0.127" layer="21"/>
+<smd name="P$1" x="-1.905" y="-1.6" dx="0.65" dy="1" layer="1"/>
+<smd name="P$2" x="-1.905" y="1.6" dx="0.65" dy="1" layer="1"/>
+<smd name="P$3" x="-0.635" y="-1.6" dx="0.65" dy="1" layer="1"/>
+<smd name="P$4" x="-0.635" y="1.6" dx="0.65" dy="1" layer="1"/>
+<smd name="P$5" x="0.635" y="-1.6" dx="0.65" dy="1" layer="1"/>
+<smd name="P$6" x="0.635" y="1.6" dx="0.65" dy="1" layer="1"/>
+<smd name="P$7" x="1.905" y="-1.6" dx="0.65" dy="1" layer="1"/>
+<smd name="P$8" x="1.905" y="1.6" dx="0.65" dy="1" layer="1"/>
+</package>
+<package name="RESISTOR_ARRAY_CTS_743_SERIES">
+<wire x1="-2.54" y1="1" x2="2.54" y2="1" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1" x2="2.54" y2="-1" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1" x2="-2.54" y2="-1" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1" x2="-2.54" y2="1" width="0.127" layer="21"/>
+<smd name="P$1" x="-1.905" y="-1" dx="0.65" dy="1" layer="1"/>
+<smd name="P$2" x="-1.905" y="1" dx="0.65" dy="1" layer="1"/>
+<smd name="P$3" x="-0.635" y="-1" dx="0.65" dy="1" layer="1"/>
+<smd name="P$4" x="-0.635" y="1" dx="0.65" dy="1" layer="1"/>
+<smd name="P$5" x="0.635" y="-1" dx="0.65" dy="1" layer="1"/>
+<smd name="P$6" x="0.635" y="1" dx="0.65" dy="1" layer="1"/>
+<smd name="P$7" x="1.905" y="-1" dx="0.65" dy="1" layer="1"/>
+<smd name="P$8" x="1.905" y="1" dx="0.65" dy="1" layer="1"/>
+</package>
+<package name="RESISTOR_ARRAY_CTS_741X083_4">
+<description>CTS 741X083 4 resistor array&lt;BR&gt;
+.08mm subtracted from pad to give resist room around each pad&lt;br&gt;
+paste covers 80% of pad.</description>
+<smd name="4" x="-0.25" y="0.575" dx="0.22" dy="0.65" layer="1" thermals="no" cream="no"/>
+<smd name="2" x="-0.75" y="0.575" dx="0.22" dy="0.65" layer="1" thermals="no" cream="no"/>
+<smd name="6" x="0.25" y="0.575" dx="0.22" dy="0.65" layer="1" thermals="no" cream="no"/>
+<smd name="8" x="0.75" y="0.575" dx="0.22" dy="0.65" layer="1" thermals="no" cream="no"/>
+<smd name="7" x="0.75" y="-0.575" dx="0.22" dy="0.65" layer="1" rot="R180" thermals="no" cream="no"/>
+<smd name="5" x="0.25" y="-0.575" dx="0.22" dy="0.65" layer="1" rot="R180" thermals="no" cream="no"/>
+<smd name="3" x="-0.25" y="-0.575" dx="0.22" dy="0.65" layer="1" rot="R180" thermals="no" cream="no"/>
+<smd name="1" x="-0.75" y="-0.575" dx="0.22" dy="0.65" layer="1" rot="R180" thermals="no" cream="no"/>
+<wire x1="-1" y1="0.5" x2="1" y2="0.5" width="0.127" layer="21"/>
+<wire x1="1" y1="0.5" x2="1" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="1" y1="-0.5" x2="-1" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.5" x2="-1" y2="0.5" width="0.127" layer="21"/>
+<rectangle x1="-0.36" y1="0.38" x2="-0.14" y2="0.9" layer="31"/>
+<rectangle x1="-0.86" y1="0.38" x2="-0.64" y2="0.9" layer="31"/>
+<rectangle x1="0.14" y1="0.38" x2="0.36" y2="0.9" layer="31"/>
+<rectangle x1="0.64" y1="0.38" x2="0.86" y2="0.9" layer="31"/>
+<rectangle x1="0.64" y1="-0.9" x2="0.86" y2="-0.38" layer="31" rot="R180"/>
+<rectangle x1="0.14" y1="-0.9" x2="0.36" y2="-0.38" layer="31" rot="R180"/>
+<rectangle x1="-0.36" y1="-0.9" x2="-0.14" y2="-0.38" layer="31" rot="R180"/>
+<rectangle x1="-0.86" y1="-0.9" x2="-0.64" y2="-0.38" layer="31" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -2360,6 +2460,92 @@ http://www.ctscorp.com/components/Datasheets/008-0335-0.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="RESISTOR_ARRAY_4" prefix="R" uservalue="yes">
+<description>Resistor Array with 4 isolated resistors</description>
+<gates>
+<gate name="C" symbol="RESISTOR" x="0" y="5.08" swaplevel="1"/>
+<gate name="B" symbol="RESISTOR" x="0" y="12.7" swaplevel="1"/>
+<gate name="D" symbol="RESISTOR" x="0" y="-2.54" swaplevel="1"/>
+<gate name="A" symbol="RESISTOR" x="0" y="20.32" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESISTOR_ARRAY_BOURNES_CAT16-J4">
+<connects>
+<connect gate="A" pin="1" pad="P$7"/>
+<connect gate="A" pin="2" pad="P$8"/>
+<connect gate="B" pin="1" pad="P$3"/>
+<connect gate="B" pin="2" pad="P$4"/>
+<connect gate="C" pin="1" pad="P$1"/>
+<connect gate="C" pin="2" pad="P$2"/>
+<connect gate="D" pin="1" pad="P$5"/>
+<connect gate="D" pin="2" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CTS_744" package="RESISTOR_ARRAY_CTS_744">
+<connects>
+<connect gate="A" pin="1" pad="P$1"/>
+<connect gate="A" pin="2" pad="P$2"/>
+<connect gate="B" pin="1" pad="P$3"/>
+<connect gate="B" pin="2" pad="P$4"/>
+<connect gate="C" pin="1" pad="P$5"/>
+<connect gate="C" pin="2" pad="P$6"/>
+<connect gate="D" pin="1" pad="P$7"/>
+<connect gate="D" pin="2" pad="P$8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CTS_743" package="RESISTOR_ARRAY_CTS_743_SERIES">
+<connects>
+<connect gate="A" pin="1" pad="P$1"/>
+<connect gate="A" pin="2" pad="P$2"/>
+<connect gate="B" pin="1" pad="P$3"/>
+<connect gate="B" pin="2" pad="P$4"/>
+<connect gate="C" pin="1" pad="P$5"/>
+<connect gate="C" pin="2" pad="P$6"/>
+<connect gate="D" pin="1" pad="P$7"/>
+<connect gate="D" pin="2" pad="P$8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CTS_742" package="RESISTOR_ARRAY_CTS_742_4">
+<connects>
+<connect gate="A" pin="1" pad="P$1"/>
+<connect gate="A" pin="2" pad="P$2"/>
+<connect gate="B" pin="1" pad="P$3"/>
+<connect gate="B" pin="2" pad="P$4"/>
+<connect gate="C" pin="1" pad="P$5"/>
+<connect gate="C" pin="2" pad="P$6"/>
+<connect gate="D" pin="1" pad="P$7"/>
+<connect gate="D" pin="2" pad="P$8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CTS_471" package="RESISTOR_ARRAY_CTS_741X083_4">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="B" pin="1" pad="3"/>
+<connect gate="B" pin="2" pad="4"/>
+<connect gate="C" pin="1" pad="5"/>
+<connect gate="C" pin="2" pad="6"/>
+<connect gate="D" pin="1" pad="7"/>
+<connect gate="D" pin="2" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="RESISTOR_ARRAY_2" prefix="R" uservalue="yes">
 <gates>
 <gate name="A" symbol="RESISTOR" x="0" y="10.16" swaplevel="1"/>
@@ -2416,7 +2602,7 @@ http://www.ctscorp.com/components/Datasheets/008-0335-0.pdf</description>
 <part name="F1" library="KEMET" deviceset="CAP" device="0603A"/>
 <part name="U$2" library="HARWIN" deviceset="M06" device=""/>
 <part name="R6" library="ERIC" deviceset="RESISTOR_ARRAY_2" device="" value="1K"/>
-<part name="R1" library="ERIC" deviceset="RESISTOR_ARRAY_2" device="" value="27"/>
+<part name="R1" library="ERIC" deviceset="RESISTOR_ARRAY_4" device="CTS_742" value="27"/>
 </parts>
 <sheets>
 <sheet>
